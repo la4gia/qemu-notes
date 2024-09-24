@@ -18,7 +18,7 @@ qemu-system-x86_64 -m 2048 -drive file=/path/to/client.qcow2 -net nic -net tap,i
 ```
 qemu-system-x86_64 -m 2048 -drive file=/path/to/server.qcow2 -net nic -net tap,ifname=tap-server,script=no,downscript=no -enable-kvm
 ```
-### Configure Interfaces (/etc/network/interfaces)
+### Configure Interfaces On Both Guests (/etc/network/interfaces)
 ```
 auto ens3
 iface ens3 inet static
