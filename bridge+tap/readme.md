@@ -26,3 +26,7 @@ address 10.10.10.x  <--- UPDATE ME
 netmask 255.255.255.0
 gateway 10.10.10.1
 ```
+### Reset Networking on Both Guests (or reboot)
+```
+sudo systemctl restart networking
+```
